@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class NumberExchange 
+{
+    public static void main(String args[]) 
+    {
+       double num1, num2;
+       Scanner keyboard = new Scanner(System.in);
+       
+       System.out.println("Input your first number: ");
+       num1=keyboard.nextDouble();
+       
+       System.out.println("Input your second number: ");
+       num2=keyboard.nextDouble();
+       
+       if (num1>num2)
+       {
+           System.out.printf("%f %f%n",num2,num1);
+       }
+       else 
+       {
+           System.out.printf("%f %f%n",num1,num2);
+       }
+    } // end main
+} // end class NumberExchange
